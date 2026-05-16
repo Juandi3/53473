@@ -1,0 +1,3 @@
+do {
+  puts("condicion invalida");
+} while (2);

@@ -1,0 +1,17 @@
+{
+  "name": "analizador-sublenguaje-c",
+  "version": "1.0.0",
+  "description": "Analizador sintactico de sublenguaje C - Tema 39568_10",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "java -jar antlr-4.9.3-complete.jar -Dlanguage=JavaScript -visitor -listener -o generated SublenguajeCLexer.g4 SublenguajeCParser.g4"
+  },
+  "dependencies": {
+    "antlr4": "4.9.3"
+  },
+  "keywords": ["antlr4", "parser", "lexer", "compiler"],
+  "author": "",
+  "license": "ISC"
+}

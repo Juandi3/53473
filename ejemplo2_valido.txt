@@ -1,0 +1,8 @@
+do {
+  puts("inicio del bucle");
+  puts("linea 2");
+  break;
+} while (1);
+do {
+  puts("segundo bucle");
+} while (0);
