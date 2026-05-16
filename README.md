@@ -24,8 +24,9 @@ El analizador realiza cuatro tareas sobre el código fuente de entrada:
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/franpiccolella19/53453.git
-cd 53453
+git clone https://github.com/Juandi3/53473.git
+cd 53473
+cd analizador
 
 # 2. Instalar dependencias
 cd analizador
